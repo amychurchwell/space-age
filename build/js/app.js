@@ -10,7 +10,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Age = exports.Age = function () {
-  function Age(age) {
+  function Age(age, birthDate) {
     _classCallCheck(this, Age);
 
     this.age = age;
@@ -25,8 +25,9 @@ var Age = exports.Age = function () {
 
   _createClass(Age, [{
     key: "getSecondsByYears",
-    value: function getSecondsByYears() {
-      return this.age * 31557600;
+    value: function getSecondsByYears(years) {
+      var year = years || this.age;
+      return year * 31557600;
     }
   }, {
     key: "calcMercury",
@@ -51,36 +52,38 @@ var Age = exports.Age = function () {
   }, {
     key: "calcDifference",
     value: function calcDifference() {
-      var yearsAgo = moment(this.birthDate, "YYYYMMDD").fromNow();
-      return getSecondsbyYears(yearsAgo);
+      var yearsAgo = moment(this.birthDate, "YYYYMMDD").diff(moment(), 'y');
+      return this.getSecondsByYears(yearsAgo);
     }
+
+    // calcYearsLeft() {
+    //   let yearsLeft =
+    //   return yearsLeft - this.age;
+    // }
+
   }]);
 
   return Age;
 }();
-//YEARS LEFT
 
-// calcYearsLeft() {
-//
-// }
+;
 
 },{}],2:[function(require,module,exports){
 'use strict';
 
-var _age = require('../js/age.js');
-
-//debug import. cannot read functions.
+var _age = require('./../js/age.js');
 
 $(document).ready(function () {
-
   $('#time').text(moment());
 
   $('#age-form').submit(function (event) {
     event.preventDefault();
     var userAge = $('#age').val();
     var age = new _age.Age(userAge);
-    $('#solution').append(age.getSecondsByYears());
+    $('#solution-area').removeClass('hidden');
+    $('#answers').append('you are: ' + age.getSecondsByYears() + ' second(s) old.' + '<br>');
+    $('#answers').append('On Mercury you are: ' + age.calcMercury() + ' year(s) old.' + '<br>');
   });
 });
 
-},{"../js/age.js":1}]},{},[2]);
+},{"./../js/age.js":1}]},{},[2]);

@@ -1,4 +1,4 @@
-# .★:space_invader: Super Galactic Age Calculator :space_invader:★.
+# .★:sparkles: Super Galactic Age Calculator :sparkles:★.
 #### January 5, 2018. Amy Churchwell.
 
 A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. :alien:
@@ -34,7 +34,7 @@ _A reference._
 ## Specs and Calculations
 - [x] refers to test completion.
 
-Solar year on *Earth* is 365 days.
+:earth_americas: Solar year on *Earth* is 365 days.
 
 1 day = 86,400 seconds.
 
