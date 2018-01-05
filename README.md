@@ -41,7 +41,7 @@ Input: 2
 Output: 63113904 second(s).
 ```
 
-* Return the age of a human in *Mercury years*.
+- [x] Return the age of a human in *Mercury years*.
 A Mercury year is .24 Earth years.
 approx *87.6 days.*
 
@@ -54,7 +54,7 @@ Multiply input by 365
 Then, divide by planet year in days.
 730/87.6 = 8.333...
 
-* Return the age of a human in *Venus years*.
+- [x] Return the age of a human in *Venus years*.
 A Venus year is .62 Earth years.
 approx *226.3 days.*
 
@@ -62,7 +62,7 @@ approx *226.3 days.*
 Input: 2
 Output: 3.22580645161 year(s).
 ```
-* Return the age of a human in *Mars years*.
+- [x] Return the age of a human in *Mars years*.
 A Mars year is 1.88 Earth years.
 approx *686.2 days.*
 
@@ -70,7 +70,7 @@ approx *686.2 days.*
 Input: 2
 Output: 1.06382978723 year(s).
 ```
-* Return the age of a human in *Jupiter years*.
+- [x] Return the age of a human in *Jupiter years*.
 A Jupiter year is 11.86 Earth years.
 approx *4328.9 days.*
 
@@ -79,7 +79,24 @@ Input: 2
 Output: 0.16863406408 year(s).
 ```
 
-Take two dates and determine the difference, in seconds, between the two. (This way a user can enter a birthdate and the application can compare the birthdate against the *current time* (moment.js) to come up with an accurate age.)
+- [ ] Determine the difference (in seconds) between a user inputted date and the *current time*.
+Returns accurate age.
+
+```
+Input: 10/14/1991
+Output: seconds.
+```
+
+- [ ] Determine how many years a user has left to live on each planet.
+Calculate life expectancy.
+Life expectancy is not hard-coded.
+
+```
+Input:
+Output:
+```
+
+Does user surpass average life expectancy?
 
 Determine how many years a user has left to live on each planet… (yikes!) To do this, the application will have to calculate the user’s life expectancy. (Note that life expectancy shouldn’t be a hard-coded value. After all, it can vary from country to country and depending on various demographics.)
 
