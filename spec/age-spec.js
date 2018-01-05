@@ -33,8 +33,7 @@ describe('Age', function() {
 
   it('should determine the difference in seconds between a user inputted date and the current time', function(){
     let result = age.calcDifference();
-    console.log(result);
-    expect(result).toEqual('test');
+    expect(result).toEqual(-852055200);
   });
 
   // it('should determine how many years a user has left to live on each planet', function(){
