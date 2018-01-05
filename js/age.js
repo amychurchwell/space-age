@@ -37,7 +37,7 @@ export class Age {
     return this.getSecondsByYears(yearsAgo);
   }
 
-  // calcYearsLeft() {
-  //
-  // }
+  calcYearsLeft() {
+
+  }
 };

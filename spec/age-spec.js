@@ -13,7 +13,7 @@ describe('Age', function() {
 
   it('should return the age of a human in mercury years', function(){
     let result = age.calcMercury();
-    expect(result).toBeCloseTo(8.333, 0.1) //TODO: play with this for repeating result
+    expect(result).toBeCloseTo(8.333, 0.1);
   });
 
   it('should return the age of a human in venus years', function(){
