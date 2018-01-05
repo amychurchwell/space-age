@@ -3,7 +3,7 @@ import { Age } from './../js/age.js';
 describe('Age', function() {
   let age;
   beforeEach(function(){
-    age = new Age(2);
+    age = new Age(2, 1980);
   });
 
   it('should take a person’s age in years and convert it into seconds', function(){
@@ -31,7 +31,12 @@ describe('Age', function() {
     expect(result).toEqual(0.16863406408094436);
   });
 
-  it('should determine how many years a user has left to live on each planet', function(){
-
+  it('should determine the difference in seconds between a user inputted date and the current time', function(){
+    let result = age.calcDifference();
+    expect(result).toEqual('test');
   });
+
+  // it('should determine how many years a user has left to live on each planet', function(){
+  //
+  // });
 });

@@ -1,6 +1,6 @@
 export class Age {
 
-  constructor(age){
+  constructor(age, birthDate){
     this.age = age;
     this.birthDate = birthDate; //format YYYYMMDD !important
     const earthYear = 365;
@@ -11,10 +11,9 @@ export class Age {
     this.jupiterYear = earthYear * 11.86;
   }
 
-//PLANETS
-
-  getSecondsByYears(){
-    return this.age * 31557600;
+  getSecondsByYears(years){
+    let year = years || this.age;
+    return year * 31557600;
   }
 
   calcMercury() {
@@ -32,13 +31,14 @@ export class Age {
   calcJupiter() {
     return this.earthAge / this.jupiterYear;
   }
-}
-
-//DATE DIFFERENCE
 
   calcDifference() {
     let yearsAgo = moment(this.birthDate, "YYYYMMDD").fromNow();
-    return getSecondsbyYears(yearsAgo);
+    return this.getSecondsByYears(yearsAgo);
   }
-
+};
 //YEARS LEFT
+
+  // calcYearsLeft() {
+  //
+  // }

@@ -4,7 +4,8 @@ module.exports = function(config) {
     frameworks: ['jquery-3.2.1', 'jasmine', 'browserify'],
     files: [
       'js/*.js',
-      'spec/*-spec.js'
+      'spec/*-spec.js',
+      'node_modules/moment/min/moment.min.js'
     ],
     exclude: [
     ],
