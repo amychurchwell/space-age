@@ -4,11 +4,21 @@
     <link rel="stylesheet" href="build/css/vendor.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Space Age</title>
+    <title>Galactic Age Calculator</title>
   </head>
   <body>
     <div class="container">
+      <h1>Galactic Age Calculator.</h1>
+      <h3>The current time is:</h3>
       <h3 id="time"></h3>
+      <div class="row">
+        <form id="age-form">
+          <input class="form-control form-control-lg" type="number" placeholder="Please enter age in years.">
+          <button type="button" class="btn btn-info">Enter</button>
+        </form>
+      </div>
+      <div class="row solution">
+      </div>
     </div>
   </body>
 </html>

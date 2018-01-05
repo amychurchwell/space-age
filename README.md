@@ -34,7 +34,7 @@ Solar year on *Earth* is 365 days.
 1 day = 86,400 seconds.
 365 days = 31,536,000 seconds.
 
-* Take a person’s age in years and convert it into seconds.
+- [x] Take a person’s age in years and convert it into seconds.
 
 ```
 Input: 2
