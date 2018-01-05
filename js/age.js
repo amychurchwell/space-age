@@ -1,7 +1,8 @@
 export class Age {
+
   constructor(age){
     this.age = age;
-
+    this.birthDate = birthDate;
     const earthYear = 365;
     this.earthAge = this.age * earthYear;
     this.mercuryYear = earthYear * 0.24;
@@ -36,11 +37,11 @@ export class Age {
 }
 
 //DATE DIFFERENCE
-
-  // calcDate(birthDate) {
-  //   let birthDate = birthDate;
-  //   let time = time;
-  //
-  // }
+// format???
+  calcDifference(birthDate) {
+    let birthDate = this.birthDate;
+    let today = today;
+    return today - this.birthDate;
+  }
 
 //YEARS LEFT

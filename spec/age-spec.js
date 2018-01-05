@@ -26,8 +26,12 @@ describe('Age', function() {
     expect(result).toEqual(1.0638297872340428);
   });
 
-  it('should return the age of a human in jupiter years', function(){    
+  it('should return the age of a human in jupiter years', function(){
     let result = age.calcJupiter();
     expect(result).toEqual(0.16863406408094436);
+  });
+
+  it('should determine how many years a user has left to live on each planet', function(){
+
   });
 });

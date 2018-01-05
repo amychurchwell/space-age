@@ -1,8 +1,10 @@
-## Super Galactic Age Calculator
+# .★ SUPER GALACTIC AGE CALCULATOR ★.
+### January 5, 2018. Amy Churchwell.
+
 A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet.
 Write an application that determines a user’s age based on a planet’s solar years.
 
-### Objectives
+## Objectives
 
 * Business logic is thoroughly tested with Jasmine.
 * Karma is set up correctly.
@@ -15,7 +17,7 @@ Write an application that determines a user’s age based on a planet’s solar 
 * README contains functionality you'd include in the future.
 
 
-### Behavior-Driven Development Workflow
+## Behavior-Driven Development Workflow
 _A reference._
 
 1. Indentify the simplest possible behavior our program must exhibit.
@@ -28,7 +30,7 @@ _A reference._
 8. Repeat this entire process with the next simplest behavior.
 
 
-### Specs and Calculations
+## Specs and Calculations
 
 Solar year on *Earth* is 365 days.
 1 day = 86,400 seconds.
@@ -91,15 +93,19 @@ Output: seconds.
 
 - [ ] Determine how many years a user has left to live on each planet.
 Calculate life expectancy.
-Life expectancy is not hard-coded.
+*Life expectancy is not hard-coded.*
 
 ```
 Input:
 Output:
 ```
+Life expectancy as a range?
 
 Does user surpass average life expectancy?
 
 Determine how many years a user has left to live on each planet… (yikes!) To do this, the application will have to calculate the user’s life expectancy. (Note that life expectancy shouldn’t be a hard-coded value. After all, it can vary from country to country and depending on various demographics.)
 
 If a user has already surpassed the average life expectancy, your application should account for (and test) this possible outcome as well.
+
+## Future functionality
+A wishlist if I had more time to work on this project.
