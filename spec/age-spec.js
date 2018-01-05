@@ -1,4 +1,4 @@
-import {Age} from './../js/age.js';
+import { Age } from './../js/age.js';
 
 describe('Age', function() {
 
