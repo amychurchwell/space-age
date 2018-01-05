@@ -4,11 +4,13 @@
   "description": "A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. Write an application that determines a user’s age based on a planet’s solar years.",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "bower-files": "^4.0.0",
+    "browser-sync": "^2.23.3",
     "browserify": "^15.0.0",
     "del": "^3.0.0",
     "gulp": "^3.9.1",
@@ -16,6 +18,7 @@
     "gulp-jshint": "^2.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
+    "jasmine": "^2.8.0",
     "jshint": "^2.9.5",
     "vinyl-source-stream": "^2.0.0",
     "watchify": "^3.9.0"
