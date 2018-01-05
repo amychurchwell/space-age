@@ -38,7 +38,7 @@ Solar year on *Earth* is 365 days.
 
 ```
 Input: 2
-Output: 63113904 second(s).
+Output: 63115200 second(s).
 ```
 
 - [x] Return the age of a human in *Mercury years*.
@@ -49,6 +49,8 @@ approx *87.6 days.*
 Input: 2
 Output: 8.333... year(s).
 ```
+! output is approximate. Use toBeCloseTo() with 0.1 parameter.
+
 Multiply input by 365
 730.
 Then, divide by planet year in days.
@@ -60,7 +62,7 @@ approx *226.3 days.*
 
 ```
 Input: 2
-Output: 3.22580645161 year(s).
+Output: 3.225806451612903 year(s).
 ```
 - [x] Return the age of a human in *Mars years*.
 A Mars year is 1.88 Earth years.
@@ -68,7 +70,7 @@ approx *686.2 days.*
 
 ```
 Input: 2
-Output: 1.06382978723 year(s).
+Output: 1.0638297872340428 year(s).
 ```
 - [x] Return the age of a human in *Jupiter years*.
 A Jupiter year is 11.86 Earth years.
@@ -76,7 +78,7 @@ approx *4328.9 days.*
 
 ```
 Input: 2
-Output: 0.16863406408 year(s).
+Output: 0.16863406408094436 year(s).
 ```
 
 - [ ] Determine the difference (in seconds) between a user inputted date and the *current time*.
