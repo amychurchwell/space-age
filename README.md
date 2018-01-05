@@ -1,9 +1,9 @@
-# .★ Super Galactic Age Calculator ★.
+# .★:space_invader: Super Galactic Age Calculator :space_invader:★.
 #### January 5, 2018. Amy Churchwell.
 
-A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet.
+A solar year lasts 365 days on planet Earth. However, the length of a solar year varies from planet to planet. :alien:
 
-Write an application that determines a user’s age based on a planet’s solar years.
+An application that determines a user’s age based on a planet’s solar years.
 
 ## Objectives
 
@@ -40,14 +40,14 @@ Solar year on *Earth* is 365 days.
 
 365 days = 31,536,000 seconds.
 
-- [x] Take a person’s age in years and convert it into seconds.
+1. - [x] Take a person’s age in years and convert it into seconds.
 
 ```
 Input: 2
 Output: 63115200 second(s).
 ```
 
-- [x] Return the age of a human in *Mercury years*.
+2. - [x] Return the age of a human in *Mercury years*.
 
 A Mercury year is .24 Earth years.
 
@@ -65,7 +65,7 @@ Multiply input by 365
 Then, divide by planet year in days.
 730/87.6 = 8.333...
 
-- [x] Return the age of a human in *Venus years*.
+3. - [x] Return the age of a human in *Venus years*.
 
 A Venus year is .62 Earth years.
 
@@ -75,7 +75,7 @@ approx *226.3 days.*
 Input: 2
 Output: 3.225806451612903 year(s).
 ```
-- [x] Return the age of a human in *Mars years*.
+4. - [x] Return the age of a human in *Mars years*.
 A Mars year is 1.88 Earth years.
 approx *686.2 days.*
 
@@ -83,7 +83,7 @@ approx *686.2 days.*
 Input: 2
 Output: 1.0638297872340428 year(s).
 ```
-- [x] Return the age of a human in *Jupiter years*.
+5. - [x] Return the age of a human in *Jupiter years*.
 
 A Jupiter year is 11.86 Earth years.
 
@@ -94,7 +94,7 @@ Input: 2
 Output: 0.16863406408094436 year(s).
 ```
 
-- [x] Determine the difference (in seconds) between a user inputted date and the *current time*.
+6. - [x] Determine the difference (in seconds) between a user inputted date and the *current time*.
 
 Returns accurate age.
 
@@ -103,7 +103,7 @@ Input: 10/14/1991
 Output: 852055200 seconds.
 ```
 
-- [ ] Determine how many years a user has left to live on each planet.
+7. - [ ] Determine how many years a user has left to live on each planet.
 
 Calculate life expectancy.
 
@@ -126,3 +126,6 @@ A wishlist if I had more time to work on this project.
 EX: gender, location, .etc.
 
 2. Polished custom CSS styles.
+
+## Contact
+Suggestions? Concerns? Memes to share? :email: amy.churchwell@gmail.com
