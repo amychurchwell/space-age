@@ -35,7 +35,7 @@ gulp.task('jsBrowserify', ['concatInterface'], function() {
     .pipe(gulp.dest('./build/js'))
 });
 
-gulp.task('bower', ['bowerJS', 'bowerCSS']);
+gulp.task('bower', ['bowerJS', 'bowerCSS', 'cssBuild']);
 
 gulp.task('bowerJS', function () {
   return gulp.src(lib.ext('js').files)
@@ -61,7 +61,7 @@ gulp.task('build', ['clean'], function(){
 
 gulp.task("cssBuild", function() {
   gulp.src(['css/*.css'])
-  .pipe(concat('vendor.css'))
+  .pipe(concat('styles.css'))
   .pipe(gulp.dest('./build/css'))
 });
 
