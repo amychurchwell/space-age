@@ -1,7 +1,8 @@
-import { Age } from './age.js';
+import { Age } from '../js/age.js';
 //debug import. cannot read functions.
 
 $(document).ready(function(){
+
   $('#time').text(moment());
 
   $('#age-form').submit(function(event){
