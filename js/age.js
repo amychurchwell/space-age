@@ -33,7 +33,8 @@ export class Age {
   }
 
   calcDifference() {
-    let yearsAgo = moment(this.birthDate, "YYYYMMDD").fromNow();
+    let yearsAgo = moment(this.birthDate, "YYYYMMDD").diff(moment(),'y');
+    console.log(yearsAgo);
     return this.getSecondsByYears(yearsAgo);
   }
 };

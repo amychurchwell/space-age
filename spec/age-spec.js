@@ -3,7 +3,7 @@ import { Age } from './../js/age.js';
 describe('Age', function() {
   let age;
   beforeEach(function(){
-    age = new Age(2, 1980);
+    age = new Age(2, 1991);
   });
 
   it('should take a person’s age in years and convert it into seconds', function(){
@@ -33,6 +33,7 @@ describe('Age', function() {
 
   it('should determine the difference in seconds between a user inputted date and the current time', function(){
     let result = age.calcDifference();
+    console.log(result);
     expect(result).toEqual('test');
   });
 
