@@ -66,8 +66,6 @@ var Age = exports.Age = function () {
   return Age;
 }();
 
-;
-
 },{}],2:[function(require,module,exports){
 'use strict';
 
@@ -78,11 +76,15 @@ $(document).ready(function () {
 
   $('#age-form').submit(function (event) {
     event.preventDefault();
+    $('#answers').text('');
     var userAge = $('#age').val();
     var age = new _age.Age(userAge);
     $('#solution-area').removeClass('hidden');
     $('#answers').append('you are: ' + age.getSecondsByYears() + ' second(s) old.' + '<br>');
     $('#answers').append('On Mercury you are: ' + age.calcMercury() + ' year(s) old.' + '<br>');
+    $('#answers').append('On Venus you are: ' + age.calcVenus() + ' year(s) old.' + '<br>');
+    $('#answers').append('On Mars you are: ' + age.calcMars() + ' year(s) old.' + '<br>');
+    $('#answers').append('On Jupiter you are: ' + age.calcJupiter() + ' year(s) old.' + '<br>');
   });
 });
 
