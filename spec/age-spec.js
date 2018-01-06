@@ -36,7 +36,4 @@ describe('Age', function() {
     expect(result).toEqual(-852055200);
   });
 
-  // it('should determine how many years a user has left to live on each planet', function(){
-  //
-  // });
 });

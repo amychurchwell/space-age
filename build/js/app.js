@@ -55,12 +55,6 @@ var Age = exports.Age = function () {
       var yearsAgo = moment(this.birthDate, "YYYYMMDD").diff(moment(), 'y');
       return this.getSecondsByYears(yearsAgo);
     }
-
-    // calcYearsLeft() {
-    //   let yearsLeft =
-    //   return yearsLeft - this.age;
-    // }
-
   }]);
 
   return Age;
@@ -88,7 +82,7 @@ $(document).ready(function () {
     $('#answers').append('On Mars you are: ' + age.calcMars() + ' year(s) old.' + '<br>');
     $('#answers').append('On Jupiter you are: ' + age.calcJupiter() + ' year(s) old.' + '<br>');
 
-    $('#answers').append('You were born: ' + age.calcDifference() + 'seconds ago.');
+    $('#answers').append('This date was: ' + age.calcDifference() + 'seconds ago.');
   });
 });
 

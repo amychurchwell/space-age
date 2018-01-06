@@ -113,7 +113,6 @@ Input:
 Output:
 ```
 Life expectancy as a range?
-
 Does user surpass average life expectancy?
 
 
@@ -122,7 +121,7 @@ A wishlist if I had more time to work on this project.
 
 1. Collect more user information to consider as factors for life expectancy.
 
-EX: gender, location, .etc.
+ex: gender, location, .etc.
 
 2. Polished custom CSS styles.
 
