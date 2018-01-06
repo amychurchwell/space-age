@@ -32,7 +32,6 @@ _A reference._
 
 
 ## Specs and Calculations
-- [x] refers to test completion.
 
 :earth_americas: Solar year on *Earth* is 365 days.
 

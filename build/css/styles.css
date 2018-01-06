@@ -2,6 +2,10 @@ body {
   background-color: lightgray;
 }
 
+input {
+  margin: 5px;
+}
+
 .hidden {
   display: none;
 }
